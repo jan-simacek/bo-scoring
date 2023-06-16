@@ -24,5 +24,12 @@ module.exports = {
       name: '@electron-forge/maker-rpm',
       config: {},
     },
+    {
+      name: '@electron-forge/maker-dmg',
+      config: {
+        icon: path.resolve(__dirname, "icons/icon.icns"),
+        format: 'ULFO'
+      }
+    }
   ],
 };

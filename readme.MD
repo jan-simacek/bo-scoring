@@ -1,0 +1,1 @@
+pred buildem je v `dist/skating/index.html` potreba zmenit `<base href="/">` na `<base href="./">`
